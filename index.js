@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
-
+const path = require("path");
 const app = express();
 const routes = require("./routes/admin");
 
@@ -24,7 +24,7 @@ app.use(session({
 }));
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
-
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
 
 mongoose.connect('mongodb+srv://FirstUser:pisey24@cluster001.emek3.mongodb.net/logInDB?retryWrites=true&w=majority')

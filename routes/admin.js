@@ -2,6 +2,17 @@ const express = require("express");
 const router = express.Router();
 const authController = require("../controllers/authController");
 
+// Return Blank home Page 
+
+router.get("/", (req,res)=>{
+    res.render("home");
+});
+
+
+
+
+
+
 // For render ejs files
 router.get('/', authController.dashboard);
 router.get('/signin', authController.signIn);
