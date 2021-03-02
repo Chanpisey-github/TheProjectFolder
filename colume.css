@@ -1,0 +1,194 @@
+.row3{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: left;
+}
+div .row3{
+  max-width: 1000px;
+  width: 40%;
+  height: 100%;
+  margin: 1%;
+  border:  solid black;
+}
+.product-list{
+  width: 20%;
+  margin: 1%;
+  background-color: aliceblue;
+}
+.item-detail{
+  width: 80%;
+  margin: 1%;
+  background-color: azure;
+}
+.Review{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  background-color: rgb(143, 138, 67);
+}
+
+#comment1{
+  border: rgb(101, 4, 14) solid ;
+  margin: 1;
+}
+#comment2{
+  border:  solid burlywood;
+  margin: 1;
+}
+.Product-imfor{
+  display: flex;
+  flex-direction: row;
+  border:  solid black;
+  background-color: bisque;
+}
+#item-image{
+  width: 40%;
+  background-color: green;
+}
+.list-item{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  align-content: center;
+  justify-content: space-around;
+  padding: 0;
+
+}
+#product-detail{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+
+
+
+
+
+
+/* Layout of the page */
+body{
+  position: absolute;
+  background-color: aquamarine;
+}
+
+div.container{
+    max-width: 1000px;
+    margin:auto;
+}
+div.header{
+    display: flex;
+    justify-content: space-around;
+}
+ul.nav-container{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+
+div.img-background{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+/*--- columns and rows --- */
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  .columns div {
+ 
+    width: 30%;
+    height: 100%;
+    margin: 2%;
+  }
+
+#col-1{
+    border: 1 solid black;
+    width: 20%;
+    background-color: pink;
+}
+#col-2{
+    width: 60%;
+}
+#col-3{
+    width: 20%;
+}
+.columns-1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.columns-1 div{
+    border: solid black;
+    width: 33%;
+    height: 150px;
+    margin: 1%;
+}
+#c1{
+  background-color: palevioletred;
+  margin: 2;
+  border: 1 solid black;
+  width: 33.33%;
+}
+#c2{
+  background-color: orange;
+  margin: 2;
+  border: 1 solid black;
+    width: 33.33%;
+}
+#c3{
+  background-color: blueviolet;
+  margin: 2;
+  border: 1 solid black;
+    width: 33.33%;
+}
+
+/*---- The section of product's  category  -----*/
+.row3{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: left;
+}
+div .row3{
+  max-width: 1000px;
+  width: 40%;
+  height: 100%;
+  margin: 1%;
+}
+.product-list{
+  width: 20%;
+  margin: 1%;
+  background-color: whitesmoke;
+}
+
+
+/*---The Item list in box ---*/
+
+
+/* --- Text stylesheet --- */ 
+footer{
+display: flex;
+justify-content:center;
+
+}
+ul.category{
+  list-style: none;
+}
+
+
+
